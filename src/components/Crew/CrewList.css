@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1200px){
+    body{
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/components/assets/destination/background-destination-desktop.jpg);
+        background-position: center;
+        background-size:cover;
+        text-align: center;
+    }
+
+    .carousel{
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .crew img{
+        width: 500px;
+    }
+
+    .crew_mebmer{
+        font-size: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 100px;
+    }
+
+    .crew_about{
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/components/assets/destination/background-destination-desktop.jpg);
+        background-position: center;
+        background-size:cover;
+    }
+
+    .carousel{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .crew img{
+        width: 500px;
+        margin: auto auto;
+    }
+
+    .crew_mebmer{
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 100px;
+    }
+
+    .crew_about{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+}

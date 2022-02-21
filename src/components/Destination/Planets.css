@@ -1,0 +1,153 @@
+@media only screen and (min-width: 1200px){
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/src/components/assets/destination/background-destination-desktop.jpg);
+    }
+    .planets{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: -50px;
+        padding-bottom: 50px;
+    }
+
+    .link{
+        color: white;
+        outline: none;
+        text-decoration: none;
+        margin-top: 50px;
+    }
+
+    .link:hover{
+        transform: rotate(360deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+    }
+
+    .destination_details{
+        width: 40%;
+        margin-left: 150px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: left;
+        font-size: 15px;
+}
+
+.planets_list{
+    display: flex;
+}
+
+ul li{
+    margin: 10px 10px;
+    list-style: none;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.planet_title{
+    font-size: 90px;
+}
+
+.planet_detail{
+    color: rgb(184, 184, 184);
+}
+
+.distance{
+    color: rgb(184, 184, 184);
+}
+
+.planet_image{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.destination{
+    width: 100%;
+    padding: 30px;
+}
+
+.choose{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .planets{
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .link{
+        color: white;
+        outline: none;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px 5px;
+        margin-left: -10px;
+    }
+
+
+    .planet_image img{
+       width: 90%;
+      display: block;
+      margin: auto auto;
+    }
+
+    .destination_details{
+        width: 100%;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 15px;
+        text-align:initial;
+}
+
+
+.planets_list{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 50px;
+    margin: 10px 15px;
+}
+
+.planet_title{
+    font-size: 90px;
+}
+
+.planet_detail{
+    width: 100%;
+    color: rgb(184, 184, 184);
+    text-align: left;
+   
+}
+
+.distance{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.destination{
+    width: 100%;
+    margin-top: 50px;
+}
+
+ .choose{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+}
